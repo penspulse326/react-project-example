@@ -1,7 +1,7 @@
 export function meta() {
   return [
-    { title: 'Hello React Router' },
-    { name: 'description', content: 'Welcome to React Router!' },
+    { title: 'React Project Template' },
+    { name: 'description', content: 'React Project Template' },
   ];
 }
 
@@ -10,7 +10,7 @@ export default function Home() {
     <div className="flex h-screen items-center justify-center bg-slate-900 font-sans text-white">
       <div className="space-y-4 text-center">
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
-          Hello React
+          React Project Template
         </h1>
         <p className="text-lg text-slate-400">
           這是使用 React Router v7 建立的基礎頁面
