@@ -19,9 +19,6 @@ export default antfu(
      */
     formatters: true,
   },
-  /**
-   * 啟用 rules 來排序 classname 和 custom-classname
-   */
   ...tailwindcss.configs['flat/recommended'],
   {
     settings: {
@@ -29,13 +26,11 @@ export default antfu(
         config: {},
       },
     },
+    /**
+     * 關閉 tailwindcss 的 no-custom-classname 規則，因為 shadcn/ui 有大量的自訂 className
+     */
     rules: {
-      'tailwindcss/no-custom-classname': [
-        'error',
-        {
-          whitelist: [],
-        },
-      ],
+      'tailwindcss/no-custom-classname': 'off',
     },
   },
 );
