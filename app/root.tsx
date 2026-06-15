@@ -11,7 +11,6 @@ import {
 
 import { fontLinks } from './config/links';
 import './assets/app.css';
-
 import './assets/font.css';
 
 export const links: Route.LinksFunction = () => [...fontLinks];
