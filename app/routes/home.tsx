@@ -20,6 +20,9 @@ export default function Home() {
         </p>
 
         <div className="mt-8 flex justify-center gap-4">
+          <Link to="/users" className="font-semibold underline transition-colors">
+            Users
+          </Link>
           <Link to="/dashboard" className="font-semibold underline transition-colors">
             Dashboard
           </Link>
