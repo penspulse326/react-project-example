@@ -1,5 +1,5 @@
 import { useLoaderData } from 'react-router';
-import { getUsers } from '~/services/getUsers';
+import { getUsers } from '~/services/users';
 
 export async function clientLoader() {
   const response = await getUsers();
