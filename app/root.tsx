@@ -8,9 +8,11 @@ import {
   Scripts,
   ScrollRestoration,
 } from 'react-router';
-import { fontLinks } from './config/links';
 
-import './app.css';
+import { fontLinks } from './config/links';
+import './assets/app.css';
+
+import './assets/font.css';
 
 export const links: Route.LinksFunction = () => [...fontLinks];
 
